@@ -13,28 +13,31 @@ vector<int> pair_sum(vector<int> arr,int target)
 	{
 		val = target-arr[i];
 
-		if(arr[i])
+		if(mp[val])
 		{
-			return {arr[i]-1,i}; 
+			return {mp[val]-1,i}; 
 		}
 		mp[arr[i]]=i+1;
 	}
 
 	return {-1,-1};
-}
+};
 
 
 int main()
 {
 	int no_of_elements;
-	cin>>o_of_elements;
+	cin>>no_of_elements;
 
-	vector<int> given_elements(n);
+	vector<int> given_elements(no_of_elements);
 
 	for(auto &x : given_elements)cin>>x;
 
 	int k; //pair sum we want
 	cin>>k;
-
-	cout<<pair_sum(given_elements,k)<<"\n";
+    vector<int> ans;
+    ans = pair_sum(given_elements,k);
+	cout<<ans[0]<<" "<<ans[1]<<"\n";
+	
+	return 0;
 }
