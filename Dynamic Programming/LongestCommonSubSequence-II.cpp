@@ -9,7 +9,7 @@
 #include <bits/stdc++.h>     
 using namespace std;
 
-int LongestCommonSubstring(string str1, string str2)
+int LongestCommonSubSequence(string str1, string str2)
 {
   int str1Length = str1.size();
   int str2Length = str2.size();
@@ -64,7 +64,7 @@ int main()
   string str1,str2;
   cin>>str1>>str2;
 
-  cout<<LongestCommonSubstring(str1,str2);
+  cout<<LongestCommonSubSequence(str1,str2);
   
   return 0;
 }
