@@ -42,10 +42,10 @@ int LongestCommonSubstring(string str1, string str2)
 int main()
 {
  
-  string a,b;
-  cin>>a>>b;
+  string str1,str2;
+  cin>>str1>>str2;
 
-  cout<<LongestCommonSubstring(a,b);
+  cout<<LongestCommonSubstring(str1,str2);
   
   return 0;
 }
