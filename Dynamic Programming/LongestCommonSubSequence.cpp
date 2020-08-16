@@ -2,6 +2,8 @@
 //To Do : Find the length of Common Subsequence
 //For eg. str1 = "Iamaprogrammer"  str2 = "Idoprogramming" , then ans will be Length = 9 and the common substring will be "Iprogramm"
 
+//Time Complexity : O(N*M) where N = length of 1st string and M = length of 2nd string.
+
 //***CodeBy_Beyourwild7***//
 
 #include <bits/stdc++.h>     
