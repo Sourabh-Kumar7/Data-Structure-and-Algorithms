@@ -1,5 +1,8 @@
+//Given : Two Strings str1 and str2.
+//To Do : Print the Common Substring.
+//Time Complexity : O(N*M) where N = length of 1st string and M = length of 2nd string.
 
-//***CodeByBeyourwild7***//
+//***CodeBy_Beyourwild7***//
 
 #include <bits/stdc++.h>    
 using namespace std;
