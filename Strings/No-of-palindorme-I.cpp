@@ -1,3 +1,18 @@
+/*
+    Problem Name : Number of panlindrome.
+    Given : A string with length N;
+    To Do : Count the no of palindrome in a string.
+    Time Complexity : O(N)
+    Space Complexity : O(1)
+    
+    
+    for eg : givenString : this is level 71
+    		ans : 1
+*/
+
+//***CodeBy_Beyourwild7***//
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
