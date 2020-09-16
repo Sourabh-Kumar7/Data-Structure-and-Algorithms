@@ -69,7 +69,6 @@ void display()
 { 
 	struct Node* temp; 
 
-	// Check for stack underflow 
 	if (top == NULL) 
 	{ 
 		cout << "\nStack Underflow"; 
