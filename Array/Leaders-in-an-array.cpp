@@ -9,10 +9,6 @@
 
 //***CodeBy_Beyourwild7***//
 
-//***CodeBy_Beyourwild7***//
-
-
-
 #include <bits/stdc++.h>
 #define ll long long int
 #define vi vector<int>
