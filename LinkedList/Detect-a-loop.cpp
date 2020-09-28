@@ -1,7 +1,12 @@
 /*
-Detect a cycle in a linked list. Note that the head pointer may be 'NULL' if the list is empty.
-Main method is not mention that you have to wirte yourself.
+    Problem Name : Detect Loop in linked list.
+    Given : A linked list of N nodes.
+    To Do : Check if the the linked list has a loop.
+    Time Complexity : O(N)
+    Space Complexity : O(1)
+*/
 
+/*
 A Node is defined as: 
     struct Node {
         int data;
