@@ -1,4 +1,12 @@
 
+/*
+    Problem Name : Length of Loop in linked list.
+    Given : A linked list of N nodes.
+    To Do : Check if the the linked list has a loop.If present find the length of loop.
+    Time Complexity : O(N)
+    Space Complexity : O(1)
+*/
+
 #include<bits/stdc++.h> 
 using namespace std; 
   
