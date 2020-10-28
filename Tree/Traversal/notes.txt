@@ -1,3 +1,4 @@
+------------------- IN-ORDER---------------------
 
     void inOrder(Node *root) {
 
@@ -6,5 +7,17 @@
         inOrder(root->left);
         printf("%d ",root->data);
         inOrder(root->right);
+
+    }
+    
+------------------- PRE-ORDER---------------------
+    
+    void preOrder(Node *root) {
+
+        if(root==NULL)return;
+        
+        printf("%d ",root->data);
+        preOrder(root->left);
+        preOrder(root->right);
 
     }
