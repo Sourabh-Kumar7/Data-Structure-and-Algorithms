@@ -19,8 +19,7 @@ node* newNode(int data)
 	return temp;
 }
 
-node* constructTreeUtil(int pre[], int* preIndex, int key,
-						int min, int max, int size)
+node* constructTreeUtil(int pre[], int* preIndex, int key,int min, int max, int size)
 {
 	if (*preIndex >= size)
 		return NULL;
@@ -48,8 +47,7 @@ node* constructTreeUtil(int pre[], int* preIndex, int key,
 node* constructTree(int pre[], int size)
 {
 	int preIndex = 0;
-	return constructTreeUtil(pre, &preIndex, pre[0],
-							INT_MIN, INT_MAX, size);
+	return constructTreeUtil(pre, &preIndex, pre[0],INT_MIN, INT_MAX, size);
 }
 
 void printInorder(node* node)
